@@ -1,0 +1,27 @@
+@import '~bootstrap';
+
+$lightgray: #efefee;
+
+p {
+    color: red;
+    font-size: 30px;
+    background-color: $lightgray;
+}
+
+ul {
+    background-color: grey;
+
+    & li {
+        color: purple
+    }
+}
+
+div,
+p {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+body {
+    display: flex;
+}
